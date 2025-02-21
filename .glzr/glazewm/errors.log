@@ -1,0 +1,47 @@
+[2m2025-02-08T18:05:35.476953Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2025-02-08T18:05:39.203151Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2025-02-08T18:05:58.163426Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2025-02-08T19:31:33.659198Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2025-02-08T19:31:47.661276Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '1' doesn't exist or is already active.
+[2m2025-02-08T19:31:49.462593Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '3' doesn't exist or is already active.
+[2m2025-02-08T19:33:18.706630Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '1' doesn't exist or is already active.
+[2m2025-02-08T19:33:20.269683Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2025-02-08T22:10:41.821966Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-08T22:11:03.857679Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[0]: missing field `commands` at line 134 column 5
+[2m2025-02-08T22:11:13.604935Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[0]: missing field `commands` at line 134 column 5
+[2m2025-02-08T22:11:43.247005Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[0]: missing field `commands` at line 134 column 5
+[2m2025-02-08T22:15:40.091904Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[0]: missing field `commands` at line 134 column 5
+[2m2025-02-08T22:19:37.955446Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[0]: missing field `commands` at line 134 column 5
+[2m2025-02-08T23:33:39.786727Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-11T12:56:15.841995Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-11T20:56:52.877214Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No common ancestor between containers.
+[2m2025-02-11T20:56:56.606311Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:56:57.557786Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:56:58.515155Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:56:59.115702Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:56:59.673632Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:00.411542Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:07.322290Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:07.862463Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:08.180554Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:08.344600Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:08.514878Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:08.722478Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:09.070042Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:09.241171Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:09.414188Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:09.609583Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:09.907901Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:10.241788Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:10.534030Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:21.745978Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:22.979815Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-11T20:57:23.492879Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Window has no workspace.
+[2m2025-02-12T17:00:37.634142Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-13T14:18:38.400282Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-14T17:09:05.745569Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-14T21:44:10.199436Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-14T21:44:33.966788Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-19T13:44:16.397330Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-21T02:34:41.828435Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-21T05:57:45.312007Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.

@@ -1,0 +1,258 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": "find",
+      "id": "User.find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "id": "User.splitPane.A6751878",
+      "keys": "alt+shift+d"
+    },
+    {
+      "command": "paste",
+      "id": "User.paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy.644BA8F2",
+      "keys": "ctrl+c"
+    }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "disableAnimations": false,
+  "launchMode": "fullscreen",
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "One Half Dark (mod saturated)",
+      "cursorShape": "filledBox",
+      "elevate": true,
+      "experimental.retroTerminalEffect": false,
+      "font": {
+        "face": "JetBrainsMono Nerd Font Mono",
+        "size": 16,
+        "weight": "normal"
+      },
+      "opacity": 32,
+      "useAcrylic": false
+    },
+    "list": [
+      {
+        "antialiasingMode": "cleartype",
+        "colorScheme": "Solarized Osaka",
+        "commandline": "\"C:\\Users\\Paul\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
+        "compatibility.reloadEnvironmentVariables": true,
+        "cursorHeight": 11,
+        "cursorShape": "filledBox",
+        "elevate": true,
+        "experimental.retroTerminalEffect": false,
+        "font": {
+          "cellHeight": "1.4",
+          "face": "BlexMono Nerd Font Mono",
+          "size": 16,
+          "weight": "normal"
+        },
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "opacity": 100,
+        "source": "Windows.Terminal.PowershellCore",
+        "startingDirectory": "%USERPROFILE%",
+        "useAcrylic": false
+      },
+      {
+        "colorScheme": "Solarized Dark (mod)",
+        "elevate": true,
+        "experimental.retroTerminalEffect": false,
+        "font": {
+          "cellHeight": "1.4",
+          "face": "BlexMono Nerd Font Mono",
+          "size": 16,
+          "weight": "normal"
+        },
+        "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "opacity": 100,
+        "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+        "useAcrylic": false
+      },
+      {
+        "backgroundImage": null,
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "elevate": true,
+        "experimental.retroTerminalEffect": false,
+        "font": {
+          "face": "Cascadia Mono",
+          "size": 16,
+          "weight": "black"
+        },
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": true,
+        "name": "Windows PowerShell",
+        "opacity": 100,
+        "tabTitle": "NXSTYNATE",
+        "useAcrylic": false
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": true,
+        "name": "Command Prompt"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "hidden": true,
+        "name": "Ubuntu",
+        "opacity": 100,
+        "source": "Windows.Terminal.Wsl"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#002B36",
+      "black": "#282C34",
+      "blue": "#2391EC",
+      "brightBlack": "#5A6374",
+      "brightBlue": "#CCCCCC",
+      "brightCyan": "#56B6C2",
+      "brightGreen": "#71DE24",
+      "brightPurple": "#B91CE8",
+      "brightRed": "#D72B39",
+      "brightWhite": "#DCDFE4",
+      "brightYellow": "#EEA216",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#1BAFC3",
+      "foreground": "#DCDFE4",
+      "green": "#67C722",
+      "name": "One Half Dark (mod saturated)",
+      "purple": "#B52ADF",
+      "red": "#DA2736",
+      "selectionBackground": "#FFFFFF",
+      "white": "#DCDFE4",
+      "yellow": "#E19B18"
+    },
+    {
+      "background": "#101010",
+      "black": "#002B36",
+      "blue": "#268BD2",
+      "brightBlack": "#FF9468",
+      "brightBlue": "#839496",
+      "brightCyan": "#93A1A1",
+      "brightGreen": "#586E75",
+      "brightPurple": "#6C71C4",
+      "brightRed": "#CB4B16",
+      "brightWhite": "#FDF6E3",
+      "brightYellow": "#657B83",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#2AA198",
+      "foreground": "#839496",
+      "green": "#859900",
+      "name": "Solarized Dark (mod)",
+      "purple": "#D33682",
+      "red": "#DC322F",
+      "selectionBackground": "#FFFFFF",
+      "white": "#EEE8D5",
+      "yellow": "#B58900"
+    },
+    {
+      "background": "#001B26",
+      "black": "#002B36",
+      "blue": "#268BD2",
+      "brightBlack": "#073642",
+      "brightBlue": "#839496",
+      "brightCyan": "#93A1A1",
+      "brightGreen": "#586E75",
+      "brightPurple": "#6C71C4",
+      "brightRed": "#CB4B16",
+      "brightWhite": "#FDF6E3",
+      "brightYellow": "#657B83",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#2AA198",
+      "foreground": "#839496",
+      "green": "#859900",
+      "name": "Solarized Dark (modified)",
+      "purple": "#D33682",
+      "red": "#DC322F",
+      "selectionBackground": "#FFFFFF",
+      "white": "#EEE8D5",
+      "yellow": "#B58900"
+    },
+    {
+      "name": "Solarized Dark - Patched",
+      "black": "#002831",
+      "red": "#d11c24",
+      "green": "#738a05",
+      "yellow": "#a57706",
+      "blue": "#2176c7",
+      "purple": "#c61c6f",
+      "cyan": "#259286",
+      "white": "#eae3cb",
+      "brightBlack": "#475b62",
+      "brightRed": "#bd3613",
+      "brightGreen": "#475b62",
+      "brightYellow": "#536870",
+      "brightBlue": "#708284",
+      "brightPurple": "#5956ba",
+      "brightCyan": "#819090",
+      "brightWhite": "#fcf4dc",
+      "background": "#101010",
+      "foreground": "#708284",
+      "selectionBackground": "#002831",
+      "cursorColor": "#708284"
+    },
+    {
+      "name": "Solarized Osaka",
+      "black": "#00141A",
+      "red": "#B7211F",
+      "green": "#859900",
+      "yellow": "#B58900",
+      "blue": "#268BD2",
+      "purple": "#D33682",
+      "cyan": "#2AA198",
+      "white": "#EEE8D5",
+      "brightBlack": "#586E75",
+      "brightRed": "#B7211F",
+      "brightGreen": "#9EACAD",
+      "brightYellow": "#B58900",
+      "brightBlue": "#6C71C4",
+      "brightPurple": "#494FB6",
+      "brightCyan": "#859900",
+      "brightWhite": "#FFFFFF",
+      "background": "#101010",
+      "foreground": "#657B83",
+      "selectionBackground": "#103956",
+      "cursorColor": "#586E75"
+    }
+  ],
+  "showTabsInTitlebar": true,
+  "startOnUserLogin": true,
+  "tabWidthMode": "equal",
+  "themes": [],
+  "useAcrylicInTabRow": false
+}
