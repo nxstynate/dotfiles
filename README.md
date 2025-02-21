@@ -1,9 +1,3 @@
-Here's a **Markdown README** file for your GitHub repo, explaining the setup and usage of your dotfiles. It includes installation steps, update instructions, and a troubleshooting section.
-
----
-
-### **📌 README.md**
-```markdown
 # 🚀 My Dotfiles
 
 This repository contains my personal **dotfiles** for configuring my development environment. It includes configurations for tools like **WezTerm, Neovim, PowerShell, Starship, and more**. These dotfiles are managed using **symbolic links**, allowing for easy synchronization across multiple machines.
@@ -98,19 +92,3 @@ git remote set-url origin git@github.com:yourusername/dotfiles.git
 
 ## 📜 License
 Feel free to use and modify these dotfiles to suit your needs. Happy coding! 🎨✨
-```
-
----
-
-### **How to Use This**
-1. Save this as `README.md` in your GitHub repo.
-2. Customize the **GitHub repo URL** (`yourusername/dotfiles`).
-3. Add more details or commands if needed.
-4. Commit and push the README to GitHub:
-   ```powershell
-   git add README.md
-   git commit -m "Added README file"
-   git push origin main
-   ```
-
-Now, your repo has **clear documentation** that makes it easy to install, update, and troubleshoot! 🚀🔥 Let me know if you want tweaks! 😊
