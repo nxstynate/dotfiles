@@ -11,7 +11,15 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "tsserver", "rust_analyzer", "tailwindcss", "html", "ruff_lsp", "pyright" },
+        ensure_installed = {
+          "lua_ls",
+          -- "tsserver",
+          -- "rust_analyzer",
+          -- "tailwindcss",
+          "html",
+          -- "ruff_lsp",
+          "pyright",
+        },
       })
     end,
   },
@@ -21,11 +29,11 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
-      lspconfig.tsserver.setup({})
-      lspconfig.rust_analyzer.setup({})
-      lspconfig.tailwindcss.setup({})
+      -- lspconfig.tsserver.setup({})
+      -- lspconfig.rust_analyzer.setup({})
+      -- lspconfig.tailwindcss.setup({})
       lspconfig.html.setup({})
-      lspconfig.ruff_lsp.setup({})
+      -- lspconfig.ruff_lsp.setup({})
       lspconfig.pyright.setup({})
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})

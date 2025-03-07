@@ -45,3 +45,20 @@
 [2m2025-02-19T13:44:16.397330Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
 [2m2025-02-21T02:34:41.828435Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
 [2m2025-02-21T05:57:45.312007Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-25T00:23:09.883907Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-25T10:53:50.852573Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-25T11:54:52.743073Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-25T13:48:59.716518Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-25T23:21:36.825035Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-25T23:22:40.356872Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-28T14:26:46.390919Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-03-01T15:44:46.272281Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-02T15:02:43.924203Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-02T19:29:32.133252Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-03T14:56:14.064073Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-03T14:56:35.167843Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-03-03T21:04:50.987512Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-04T04:12:49.513949Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-04T18:58:49.258301Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-06T13:39:42.997677Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-03-06T15:02:33.764500Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)

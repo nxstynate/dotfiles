@@ -37,6 +37,17 @@ Import-Module PSfzf
 Set-PsFzfOption -PSReadLineChordProvider 'Ctrl+f' 
 Set-PsFzfOption -PSReadLineChordReverseHistory 'Ctrl+r'
 
+function fcd {
+    # List directories recursively from the current directory
+    $dir = Get-ChildItem -Directory -Recurse -ErrorAction SilentlyContinue |
+           Select-Object -ExpandProperty FullName |
+           fzf
+    if ($dir) {
+        Set-Location $dir
+    }
+}
+
+
 #Fastfetch-----------------------------------------------------------------------------------------
 Fastfetch
 

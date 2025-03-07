@@ -18,9 +18,10 @@ config.window_padding = {
 -- config.enable_kitty_graphics = true
 
 -- Appearance Settings
-config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Light" })
--- config.font = wezterm.font("JetBrains Nerd Font", { weight = "Light" })
-config.font_size = 20.0
+-- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Regular" })
+config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Regular" })
+config.dpi = 144
+config.font_size = 12.0
 -- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
 config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
 config.line_height = 1.05
