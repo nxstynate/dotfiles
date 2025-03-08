@@ -20,6 +20,7 @@ config.window_padding = {
 -- Appearance Settings
 -- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Regular" })
 config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Regular" })
+-- config.font = wezterm.font("Hack Nerd Font Mono", { weight = "Regular" })
 config.dpi = 144
 config.font_size = 12.0
 -- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
