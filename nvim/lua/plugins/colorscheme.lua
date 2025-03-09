@@ -16,6 +16,7 @@
 --     },
 --   },
 -- }
+--
 return {
   {
     "craftzdog/solarized-osaka.nvim",
@@ -35,3 +36,30 @@ return {
     end,
   },
 }
+
+-- return {
+--   {
+--     "rose-pine/neovim",
+--     name = "rose-pine",
+--     opts = {
+--       enable = {
+--         terminal = true,
+--       },
+--       styles = {
+--         transparency = true,
+--         bold = true,
+--         italic = true,
+--       },
+--     },
+--     config = function(_, opts)
+--       require("rose-pine").setup(opts)
+--       vim.cmd("colorscheme rose-pine")
+--     end,
+--   },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "rose-pine",
+--     },
+--   },
+-- }

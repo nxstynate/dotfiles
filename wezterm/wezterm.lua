@@ -26,10 +26,11 @@ config.font_size = 12.0
 -- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
 config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
 config.line_height = 1.05
+-- Solarized Osaka:
 config.colors = colors
 -- config.color_scheme = "Solarized Dark - Patched"
--- config.color_scheme = "Gruvbox Dark (Gogh)"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
+-- config.color_scheme = "rose-pine"
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 1
 -- config.win32_system_backdrop = "Tabbed"
@@ -42,7 +43,7 @@ config.show_tab_index_in_tab_bar = false
 
 -- Background Color to Keep Darkness (Fix Washed Out Acrylic)
 -- config.colors = {
--- 	background = "#101010",
+-- background = "#101010",
 -- }
 
 -- Increase color vibrancy
