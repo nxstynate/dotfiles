@@ -1,6 +1,6 @@
 return {
 	foreground = "#657B83",
-	background = "#101010",
+	background = "#181818",
 	cursor_bg = "#586E75",
 	cursor_fg = "#101010",
 	cursor_border = "#586E75",
