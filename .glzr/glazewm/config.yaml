@@ -153,7 +153,7 @@ window_rules:
       - window_title: { regex: "Voice" }
   - commands: ["move --workspace 7"]
     match:
-      - window_process: { regex: "blender|SketchUp|3dsmax|AfterFX" }
+      - window_process: { regex: "blender|SketchUp|3dsmax|AfterFX|Zoom" }
       - window_title:
           {
             regex: "C:\\Program Files\\Blender Foundation\\Blender 4.2\\blender.exe",
