@@ -11,6 +11,7 @@ $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 # posh-git -----------------------------------------------------------------------------------------
 Import-Module posh-git
 
+
 # Prompt Styling-----------------------------------------------------------------------------------------
 # Oh My Posh Prompt
 # $omp_config = Join-Path $PSScriptRoot ".\takuya.omp.json"
@@ -458,3 +459,6 @@ function Check-FontInstalled {
 #Clear-TempFiles
 #Clear-WindowsUpdateCache 
 #Clear-RecycleBin -Force -ErrorAction SilentlyContinue
+
+# Zoxide
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
