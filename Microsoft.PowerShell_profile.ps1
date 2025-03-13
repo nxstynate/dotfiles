@@ -24,6 +24,9 @@ $ENV:STARSHIP_CONFIG = "$HOME\dotfiles\starship.toml"
 # Terminal Icons-----------------------------------------------------------------------------------------
 Import-Module -Name Terminal-Icons
 
+# Zoxide
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
 #PS ReadLine -----------------------------------------------------------------------------------------
 Import-Module -Name PSReadLine
 Set-PSReadLineOption -PredictionSource History 
@@ -460,5 +463,3 @@ function Check-FontInstalled {
 #Clear-WindowsUpdateCache 
 #Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 
-# Zoxide
-Invoke-Expression (& { (zoxide init powershell | Out-String) })
