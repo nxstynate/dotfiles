@@ -33,7 +33,6 @@ start "" "C:\Users\Paul\AppData\Local\slack\slack.exe"
 echo Launching Discord...
 start "" "C:\Users\Paul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk"
 
-
 echo All applications started successfully!
 exit
 
