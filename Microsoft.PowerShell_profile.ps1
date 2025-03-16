@@ -55,6 +55,9 @@ function fcd {
 #Fastfetch-----------------------------------------------------------------------------------------
 Fastfetch
 
+#Python Scripts-----------------------------------------------------------------------------------------
+Set-Alias mm "$HOME\scripts\mm.py"
+
 # Alias-----------------------------------------------------------------------------------------
 Set-Alias -Name vim -Value nvim
 Set-Alias cat bat
@@ -64,7 +67,7 @@ Set-Alias grep findstr
 Set-Alias touch New-Item
 #Set-Alias which Get-Command
 function which { (Get-Command $args[0] -ErrorAction SilentlyContinue).Source }
-Set-Alias lockscreen "rundll32.exe user32.dll,LockWorkStation"
+#Set-Alias lockscreen "rundll32.exe user32.dll,LockWorkStation"
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias 3dsmax2022 "C:\Program Files\Autodesk\3ds Max 2022\3dsmax.exe"
@@ -457,6 +460,22 @@ function Check-FontInstalled {
             Write-Host "The font '$font' is not installed." -ForegroundColor Red
         }
     }
+}
+
+
+#LockScreen---------------------------------------------------------------------------------------------
+function Lock-Screen {
+    Add-Type -TypeDefinition @"
+    using System;
+    using System.Runtime.InteropServices;
+    
+    public class LockWorkStationHelper {
+        [DllImport("user32.dll", SetLastError = true)]
+        public static extern bool LockWorkStation();
+    }
+"@ -PassThru | Out-Null
+
+    [LockWorkStationHelper]::LockWorkStation()
 }
 
 
