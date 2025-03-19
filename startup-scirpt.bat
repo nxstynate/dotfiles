@@ -13,12 +13,18 @@ start "" "C:\Program Files\glzr.io\GlazeWM\glazewm.exe"
 echo Waiting for applications to start...
 timeout /t 5 /nobreak >nul
 
+
 :: Launch Applications
 echo Launching WezTerm as Administrator...
 powershell -Command "Start-Process 'C:\Program Files\WezTerm\wezterm-gui.exe' -Verb RunAs"
 
+REM echo Launching Win-Vind...
+REM start "" "C:\Users\Paul\scoop\shims\win-vind.exe"
+
 echo Launching Blender...
 REM start "" "C:\Program Files\Blender Foundation\Blender 4.2\blender.exe"
+
+C:\Users\Paul\scoop\shims\win-vind.exe
 
 echo Launching Google Chrome windows...
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://www.google.com"
