@@ -22,6 +22,7 @@ REM powershell -Command "Start-Process 'C:\Program Files\WezTerm\wezterm-gui.exe
 echo Launching Windows Terminal...
 start "" "wt.exe"
 
+Start-Process "wt.exe" -Verb RunAs
 REM echo Launching Win-Vind...
 REM start "" "C:\Users\Paul\scoop\shims\win-vind.exe"
 
