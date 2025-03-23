@@ -41,6 +41,7 @@
             {
                 "action": "nextTab"
             },
+            "id": "User.nextTab.0",
             "keys": "ctrl+t"
         }
     ],
@@ -59,7 +60,7 @@
     {
         "defaults": 
         {
-            "colorScheme": "One Half Dark (mod saturated)",
+            "colorScheme": "Solarized Osaka",
             "cursorShape": "filledBox",
             "elevate": true,
             "experimental.retroTerminalEffect": false,
@@ -76,7 +77,7 @@
         [
             {
                 "antialiasingMode": "cleartype",
-                "colorScheme": "Solarized Osaka",
+                "colorScheme": "Gruvbox Dark",
                 "commandline": "\"C:\\Users\\Paul\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
                 "compatibility.reloadEnvironmentVariables": true,
                 "cursorHeight": 11,
@@ -99,7 +100,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "Solarized Dark (mod)",
+                "colorScheme": "Gruvbox Dark",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -152,102 +153,57 @@
                 "name": "Ubuntu",
                 "opacity": 100,
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{2158625e-78ae-5374-a7d1-39f5af49fe15}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{18a0bf36-1953-5a60-975f-8b417ef0cf5d}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{bfd7c9f1-6656-5841-b6d7-e438bd028c03}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{4742db38-fc53-5853-87d3-dc9ff7dc0726}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
     "schemes": 
     [
         {
-            "background": "#002B36",
-            "black": "#282C34",
-            "blue": "#2391EC",
-            "brightBlack": "#5A6374",
-            "brightBlue": "#CCCCCC",
-            "brightCyan": "#56B6C2",
-            "brightGreen": "#71DE24",
-            "brightPurple": "#B91CE8",
-            "brightRed": "#D72B39",
-            "brightWhite": "#DCDFE4",
-            "brightYellow": "#EEA216",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#1BAFC3",
-            "foreground": "#DCDFE4",
-            "green": "#67C722",
-            "name": "One Half Dark (mod saturated)",
-            "purple": "#B52ADF",
-            "red": "#DA2736",
-            "selectionBackground": "#FFFFFF",
-            "white": "#DCDFE4",
-            "yellow": "#E19B18"
-        },
-        {
             "background": "#101010",
-            "black": "#002B36",
-            "blue": "#268BD2",
-            "brightBlack": "#FF9468",
-            "brightBlue": "#839496",
-            "brightCyan": "#93A1A1",
-            "brightGreen": "#586E75",
-            "brightPurple": "#6C71C4",
-            "brightRed": "#CB4B16",
-            "brightWhite": "#FDF6E3",
-            "brightYellow": "#657B83",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#2AA198",
-            "foreground": "#839496",
-            "green": "#859900",
-            "name": "Solarized Dark (mod)",
-            "purple": "#D33682",
-            "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#EEE8D5",
-            "yellow": "#B58900"
-        },
-        {
-            "background": "#001B26",
-            "black": "#002B36",
-            "blue": "#268BD2",
-            "brightBlack": "#073642",
-            "brightBlue": "#839496",
-            "brightCyan": "#93A1A1",
-            "brightGreen": "#586E75",
-            "brightPurple": "#6C71C4",
-            "brightRed": "#CB4B16",
-            "brightWhite": "#FDF6E3",
-            "brightYellow": "#657B83",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#2AA198",
-            "foreground": "#839496",
-            "green": "#859900",
-            "name": "Solarized Dark (modified)",
-            "purple": "#D33682",
-            "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#EEE8D5",
-            "yellow": "#B58900"
-        },
-        {
-            "background": "#101010",
-            "black": "#002831",
-            "blue": "#2176C7",
-            "brightBlack": "#475B62",
-            "brightBlue": "#708284",
-            "brightCyan": "#819090",
-            "brightGreen": "#475B62",
-            "brightPurple": "#5956BA",
-            "brightRed": "#BD3613",
-            "brightWhite": "#FCF4DC",
-            "brightYellow": "#536870",
-            "cursorColor": "#708284",
-            "cyan": "#259286",
-            "foreground": "#708284",
-            "green": "#738A05",
-            "name": "Solarized Dark - Patched",
-            "purple": "#C61C6F",
-            "red": "#D11C24",
-            "selectionBackground": "#002831",
-            "white": "#EAE3CB",
-            "yellow": "#A57706"
+            "black": "#282828",
+            "blue": "#458588",
+            "brightBlack": "#928374",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#B7211F",
+            "brightWhite": "#BDAE93",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#586E75",
+            "cyan": "#689D6A",
+            "foreground": "#BDAE93",
+            "green": "#98971A",
+            "name": "Gruvbox Dark",
+            "purple": "#B16286",
+            "red": "#B7211F",
+            "selectionBackground": "#586E75",
+            "white": "#A89984",
+            "yellow": "#D79921"
         },
         {
             "background": "#101010",
@@ -271,6 +227,27 @@
             "selectionBackground": "#103956",
             "white": "#EEE8D5",
             "yellow": "#B58900"
+        },
+        {
+          "name": "Rose Pine",
+          "black": "#706e86",
+          "red": "#eb6f92",
+          "green": "#9ccfd8",
+          "yellow": "#f6c177",
+          "blue": "#31748f",
+          "purple": "#c4a7e7",
+          "cyan": "#ebbcba",
+          "white": "#e0def4",
+          "brightBlack": "#706e86",
+          "brightRed": "#eb6f92",
+          "brightGreen": "#9ccfd8",
+          "brightYellow": "#f6c177",
+          "brightBlue": "#31748f",
+          "brightPurple": "#c4a7e7",
+          "brightCyan": "#ebbcba",
+          "brightWhite": "#e0def4",
+          "background": "#101010",
+          "foreground": "#e0def4"
         }
     ],
     "showTabsInTitlebar": true,
