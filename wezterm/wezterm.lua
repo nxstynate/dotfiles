@@ -30,7 +30,7 @@ config.line_height = 1.05
 config.colors = colors
 -- config.color_scheme = "Solarized Dark - Patched"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
--- config.color_scheme = "rose-pine"
+config.color_scheme = "rose-pine"
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 1
 -- config.win32_system_backdrop = "Tabbed"
@@ -40,6 +40,9 @@ config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
 config.show_tab_index_in_tab_bar = false
+config.use_resize_increments = true
+-- config.allow_square_glyphs_to_overflow_width = "Always"
+-- config.enable_scrollbar = false
 
 -- Background Color to Keep Darkness (Fix Washed Out Acrylic)
 -- config.colors = {

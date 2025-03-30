@@ -4,28 +4,21 @@
     "actions": 
     [
         {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
         },
         {
             "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+tab"
+            "id": "User.paste"
         },
         {
             "command": 
@@ -33,22 +26,47 @@
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": 
             {
                 "action": "nextTab"
             },
-            "id": "User.nextTab.0",
-            "keys": "ctrl+t"
+            "id": "User.nextTab.0"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "disableAnimations": false,
+    "keybindings": 
+    [
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.nextTab.0",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+tab"
+        }
+    ],
     "launchMode": "fullscreen",
     "newTabMenu": 
     [
@@ -209,6 +227,29 @@
         },
         {
             "background": "#101010",
+            "black": "#706E86",
+            "blue": "#31748F",
+            "brightBlack": "#706E86",
+            "brightBlue": "#31748F",
+            "brightCyan": "#EBBCBA",
+            "brightGreen": "#9CCFD8",
+            "brightPurple": "#C4A7E7",
+            "brightRed": "#EB6F92",
+            "brightWhite": "#E0DEF4",
+            "brightYellow": "#F6C177",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#EBBCBA",
+            "foreground": "#E0DEF4",
+            "green": "#9CCFD8",
+            "name": "Rose Pine",
+            "purple": "#C4A7E7",
+            "red": "#EB6F92",
+            "selectionBackground": "#FFFFFF",
+            "white": "#E0DEF4",
+            "yellow": "#F6C177"
+        },
+        {
+            "background": "#101010",
             "black": "#00141A",
             "blue": "#268BD2",
             "brightBlack": "#586E75",
@@ -229,27 +270,6 @@
             "selectionBackground": "#103956",
             "white": "#EEE8D5",
             "yellow": "#B58900"
-        },
-        {
-          "name": "Rose Pine",
-          "black": "#706e86",
-          "red": "#eb6f92",
-          "green": "#9ccfd8",
-          "yellow": "#f6c177",
-          "blue": "#31748f",
-          "purple": "#c4a7e7",
-          "cyan": "#ebbcba",
-          "white": "#e0def4",
-          "brightBlack": "#706e86",
-          "brightRed": "#eb6f92",
-          "brightGreen": "#9ccfd8",
-          "brightYellow": "#f6c177",
-          "brightBlue": "#31748f",
-          "brightPurple": "#c4a7e7",
-          "brightCyan": "#ebbcba",
-          "brightWhite": "#e0def4",
-          "background": "#101010",
-          "foreground": "#e0def4"
         }
     ],
     "showTabsInTitlebar": true,
