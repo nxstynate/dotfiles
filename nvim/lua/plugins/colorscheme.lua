@@ -1,21 +1,21 @@
-return {
-  {
-    "ellisonleao/gruvbox.nvim",
-    opts = {
-      transparent_mode = true, -- Ensure this is a boolean, not a string
-    },
-    config = function(_, opts)
-      require("gruvbox").setup(opts)
-      vim.cmd("colorscheme gruvbox")
-    end,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
-  },
-}
+-- return {
+--   {
+--     "ellisonleao/gruvbox.nvim",
+--     opts = {
+--       transparent_mode = true, -- Ensure this is a boolean, not a string
+--     },
+--     config = function(_, opts)
+--       require("gruvbox").setup(opts)
+--       vim.cmd("colorscheme gruvbox")
+--     end,
+--   },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "gruvbox",
+--     },
+--   },
+-- }
 --
 -- return {
 --   {
@@ -37,29 +37,29 @@ return {
 --   },
 -- }
 
--- return {
---   {
---     "rose-pine/neovim",
---     name = "rose-pine",
---     opts = {
---       enable = {
---         terminal = true,
---       },
---       styles = {
---         transparency = true,
---         bold = true,
---         italic = true,
---       },
---     },
---     config = function(_, opts)
---       require("rose-pine").setup(opts)
---       vim.cmd("colorscheme rose-pine")
---     end,
---   },
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       colorscheme = "rose-pine",
---     },
---   },
--- }
+return {
+  {
+    "rose-pine/neovim",
+    name = "rose-pine-dawn",
+    opts = {
+      enable = {
+        terminal = true,
+      },
+      styles = {
+        transparency = true,
+        bold = true,
+        italic = true,
+      },
+    },
+    config = function(_, opts)
+      require("rose-pine").setup(opts)
+      vim.cmd("colorscheme rose-pine")
+    end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "rose-pine",
+    },
+  },
+}

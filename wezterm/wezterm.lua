@@ -6,6 +6,7 @@ local config = {}
 config.cursor_blink_ease_in = "EaseOut"
 config.cursor_blink_ease_out = "EaseOut"
 config.default_cursor_style = "BlinkingBlock"
+-- config.default_cursor_style = "SteadyBlock"
 config.cursor_blink_rate = 650
 
 config.window_padding = {
@@ -25,14 +26,14 @@ config.dpi = 144
 config.font_size = 12.0
 -- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
 config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
-config.line_height = 1.05
+config.line_height = 1.00
 -- Solarized Osaka:
-config.colors = colors
+-- config.colors = colors
 -- config.color_scheme = "Solarized Dark - Patched"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
-config.color_scheme = "rose-pine"
+config.color_scheme = "rose-pine-dawn"
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 1
+config.window_background_opacity = 0
 -- config.win32_system_backdrop = "Tabbed"
 config.enable_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
