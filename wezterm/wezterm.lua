@@ -3,11 +3,10 @@ local colors = require("colors.colors")
 local config = {}
 
 -- cursor
-config.cursor_blink_ease_in = "EaseOut"
-config.cursor_blink_ease_out = "EaseOut"
-config.default_cursor_style = "BlinkingBlock"
--- config.default_cursor_style = "SteadyBlock"
-config.cursor_blink_rate = 650
+config.default_cursor_style = "SteadyBlock"
+-- config.cursor_blink_ease_in = "EaseOut"
+-- config.cursor_blink_ease_out = "EaseOut"
+-- config.cursor_blink_rate = 650
 
 config.window_padding = {
 	left = 0,
@@ -27,11 +26,12 @@ config.font_size = 12.0
 -- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
 config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
 config.line_height = 1.00
--- Solarized Osaka:
+-- Custom Color
 -- config.colors = colors
 -- config.color_scheme = "Solarized Dark - Patched"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
-config.color_scheme = "rose-pine-dawn"
+config.color_scheme = "rose-pine"
+-- config.color_scheme = "rose-pine-dawn"
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0
 -- config.win32_system_backdrop = "Tabbed"
@@ -63,7 +63,7 @@ config.term = "xterm-256color"
 config.front_end = "WebGpu"
 config.webgpu_power_preference = "HighPerformance"
 config.max_fps = 144
-config.underline_thickness = "1.5pt"
+config.underline_thickness = "1pt"
 
 -- Default Shell Setup
 local os_name = wezterm.target_triple
