@@ -13,20 +13,18 @@ start "" "C:\Program Files\glzr.io\GlazeWM\glazewm.exe"
 echo Waiting for applications to start...
 timeout /t 5 /nobreak >nul
 
-
-
 :: Launch Applications
-REM echo Launching WezTerm as Administrator...
-REM powershell -Command "Start-Process 'C:\Program Files\WezTerm\wezterm-gui.exe' -Verb RunAs"
+echo Launching WezTerm as Administrator...
+powershell -Command "Start-Process 'C:\Program Files\WezTerm\wezterm-gui.exe' -Verb RunAs"
 
-echo Launching Windows Terminal...
-start "" "wt.exe"
+REM echo Launching Windows Terminal...
+REM start "" "wt.exe"
 
-Start-Process "wt.exe" -Verb RunAs
+REM Start-Process "wt.exe" -Verb RunAs
 REM echo Launching Win-Vind...
 REM start "" "C:\Users\Paul\scoop\shims\win-vind.exe"
 
-echo Launching Blender...
+REM echo Launching Blender...
 REM start "" "C:\Program Files\Blender Foundation\Blender 4.2\blender.exe"
 
 echo Launching Google Chrome windows...
@@ -41,6 +39,9 @@ start "" "C:\Users\Paul\AppData\Local\slack\slack.exe"
 
 echo Launching Discord...
 start "" "C:\Users\Paul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk"
+
+echo Launching Signal...
+start "Users\Paul\AppData\Local\Programs\signal-desktop\Signal.exe"
 
 echo All applications started successfully!
 exit
