@@ -3,10 +3,10 @@ local colors = require("colors.colors")
 local config = {}
 
 -- cursor
-config.default_cursor_style = "SteadyBlock"
--- config.cursor_blink_ease_in = "EaseOut"
--- config.cursor_blink_ease_out = "EaseOut"
--- config.cursor_blink_rate = 650
+config.default_cursor_style = "BlinkingBlock"
+config.cursor_blink_ease_in = "EaseOut"
+config.cursor_blink_ease_out = "EaseOut"
+config.cursor_blink_rate = 650
 
 config.window_padding = {
 	left = 0,
@@ -15,23 +15,23 @@ config.window_padding = {
 	bottom = 0,
 }
 
--- config.enable_kitty_graphics = true
-
 -- Appearance Settings
+config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Thin" })
 -- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Regular" })
-config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Regular" })
 -- config.font = wezterm.font("Hack Nerd Font Mono", { weight = "Regular" })
 config.dpi = 144
 config.font_size = 12.0
--- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
+config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
 config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
 config.line_height = 1.00
--- Custom Color
+
+-- Color Themes:
 -- config.colors = colors
 -- config.color_scheme = "Solarized Dark - Patched"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
 config.color_scheme = "rose-pine"
 -- config.color_scheme = "rose-pine-dawn"
+--
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0
 -- config.win32_system_backdrop = "Tabbed"
@@ -44,11 +44,6 @@ config.show_tab_index_in_tab_bar = false
 config.use_resize_increments = true
 -- config.allow_square_glyphs_to_overflow_width = "Always"
 -- config.enable_scrollbar = false
-
--- Background Color to Keep Darkness (Fix Washed Out Acrylic)
--- config.colors = {
--- background = "#101010",
--- }
 
 -- Increase color vibrancy
 config.force_reverse_video_cursor = true
