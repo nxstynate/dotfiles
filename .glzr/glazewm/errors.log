@@ -72,3 +72,7 @@
 [2m2025-03-30T06:41:12.656501Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
 [2m2025-03-30T15:49:28.354318Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
 [2m2025-03-31T04:50:36.767138Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-04T01:21:45.380754Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[7].match[1]: data did not match any variant of untagged enum MatchType at line 167 column 9
+[2m2025-04-04T01:22:01.793685Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[7].match[1]: data did not match any variant of untagged enum MatchType at line 167 column 9
+[2m2025-04-04T01:23:38.081923Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[7].match[1]: data did not match any variant of untagged enum MatchType at line 167 column 9
+[2m2025-04-04T01:25:01.077645Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[7].match[1]: data did not match any variant of untagged enum MatchType at line 167 column 9

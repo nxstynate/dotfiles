@@ -86,6 +86,7 @@ end
 
 -- Set Leader Key to CTRL + T
 config.leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 }
+-- config.leader = { key = "Space", mods = "", timeout_milliseconds = 1000 }
 
 -- Vim/Tmux-Like Keybindings with Updated Leader Key
 config.keys = {
@@ -113,6 +114,11 @@ config.keys = {
 	{ key = "n", mods = "LEADER", action = wezterm.action.ActivateTabRelative(1) },
 	{ key = "p", mods = "LEADER", action = wezterm.action.ActivateTabRelative(-1) },
 	{ key = "w", mods = "LEADER", action = wezterm.action.CloseCurrentTab({ confirm = true }) },
+
+	-- Window Management: Detach / Attach style
+	{ key = "s", mods = "LEADER", action = wezterm.action.ShowLauncher },
+	{ key = "t", mods = "LEADER", action = wezterm.action.ShowTabNavigator },
+	{ key = "z", mods = "LEADER", action = wezterm.action.TogglePaneZoomState },
 
 	-- Toggle Fullscreen
 	{ key = "f", mods = "LEADER", action = wezterm.action.ToggleFullScreen },
