@@ -1,12 +1,7 @@
 local wezterm = require("wezterm")
 local colors = require("colors.colors")
+local tabline = require("plugins.tabline")
 local config = {}
-
--- cursor
-config.default_cursor_style = "BlinkingBlock"
-config.cursor_blink_ease_in = "EaseOut"
-config.cursor_blink_ease_out = "EaseOut"
-config.cursor_blink_rate = 650
 
 config.window_padding = {
 	left = 0,
@@ -14,7 +9,6 @@ config.window_padding = {
 	top = 0,
 	bottom = 0,
 }
-
 -- Appearance Settings
 config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Thin" })
 -- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Regular" })
@@ -23,7 +17,7 @@ config.dpi = 144
 config.font_size = 12.0
 config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
 config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
-config.line_height = 1.00
+config.line_height = 1
 
 -- Color Themes:
 -- config.colors = colors
@@ -31,12 +25,15 @@ config.line_height = 1.00
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
 config.color_scheme = "rose-pine"
 -- config.color_scheme = "rose-pine-dawn"
---
+
+-- Tabline:
+tabline.apply(config)
+
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0
 -- config.win32_system_backdrop = "Tabbed"
-config.enable_tab_bar = false
-config.hide_tab_bar_if_only_one_tab = true
+config.enable_tab_bar = true
+config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
@@ -54,7 +51,7 @@ config.inactive_pane_hsb = {
 }
 
 -- Performance Settings (GPU & FPS)
-config.term = "xterm-256color"
+config.term = "wezterm"
 config.front_end = "WebGpu"
 config.webgpu_power_preference = "HighPerformance"
 config.max_fps = 144
