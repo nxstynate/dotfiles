@@ -1,46 +1,48 @@
--- return {
---   {
---     "ellisonleao/gruvbox.nvim",
---     opts = {
---       transparent_mode = true, -- Ensure this is a boolean, not a string
---     },
---     config = function(_, opts)
---       require("gruvbox").setup(opts)
---       vim.cmd("colorscheme gruvbox")
---     end,
---   },
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       colorscheme = "gruvbox",
---     },
---   },
--- }
---
--- return {
---   {
---     "craftzdog/solarized-osaka.nvim",
---     lazy = false,
---     priority = 1000,
---     opts = {
---       transparent = true, -- Enable transparency
---       terminal_colors = true,
---       styles = {
---         sidebars = "transparent",
---         floats = "transparent",
---       },
---     },
---     config = function(_, opts)
---       require("solarized-osaka").setup(opts)
---       vim.cmd("colorscheme solarized-osaka")
---     end,
---   },
--- }
-
 return {
+  -- Gruvbox
+  {
+    "ellisonleao/gruvbox.nvim",
+    name = "gruvbox",
+    priority = 1000,
+    lazy = false,
+    opts = {
+      transparent_mode = true,
+      terminal_colors = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+    config = function(_, opts)
+      require("gruvbox").setup(opts)
+    end,
+  },
+
+  -- Solarized Osaka
+  {
+    "craftzdog/solarized-osaka.nvim",
+    name = "solarized-osaka",
+    priority = 1000,
+    lazy = false,
+    opts = {
+      transparent = true,
+      terminal_colors = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+    config = function(_, opts)
+      require("solarized-osaka").setup(opts)
+    end,
+  },
+
+  -- Rose Pine
   {
     "rose-pine/neovim",
-    name = "rose-pine-dawn",
+    name = "rose-pine",
+    priority = 1000,
+    lazy = false,
     opts = {
       enable = {
         terminal = true,
@@ -53,13 +55,14 @@ return {
     },
     config = function(_, opts)
       require("rose-pine").setup(opts)
-      vim.cmd("colorscheme rose-pine")
     end,
   },
+
+  -- Set your default colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "gruvbox",
     },
   },
 }

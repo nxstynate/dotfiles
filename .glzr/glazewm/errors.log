@@ -82,3 +82,8 @@
  at line 7 column 21
 [2m2025-04-05T06:12:56.099894Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: unrecognized subcommand
  at line 7 column 21
+[2m2025-04-06T08:12:44.336191Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-04-08T13:52:34.410341Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-08T21:25:55.055020Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-08T21:25:59.377965Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-11T12:53:17.380029Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.

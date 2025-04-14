@@ -95,7 +95,9 @@
         [
             {
                 "antialiasingMode": "cleartype",
-                "colorScheme": "Solarized Osaka",
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.16,
+                "colorScheme": "Rose Pine",
                 "commandline": "\"C:\\Users\\Paul\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
                 "compatibility.reloadEnvironmentVariables": true,
                 "cursorHeight": 11,
@@ -204,6 +206,29 @@
     "schemes": 
     [
         {
+            "background": "#2B2B2B",
+            "black": "#1C1C1C",
+            "blue": "#50DBFF",
+            "brightBlack": "#373737",
+            "brightBlue": "#80DFFF",
+            "brightCyan": "#63FFFF",
+            "brightGreen": "#A0FF6B",
+            "brightPurple": "#CFA0FF",
+            "brightRed": "#FF734D",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF87",
+            "cursorColor": "#FF0000",
+            "cyan": "#39C884",
+            "foreground": "#AAAAAA",
+            "green": "#95D600",
+            "name": "Dark Graphite",
+            "purple": "#AD80FF",
+            "red": "#FF4D84",
+            "selectionBackground": "#525A97",
+            "white": "#FDFDFF",
+            "yellow": "#F6E162"
+        },
+        {
             "background": "#101010",
             "black": "#282828",
             "blue": "#458588",
@@ -271,29 +296,6 @@
             "selectionBackground": "#103956",
             "white": "#EEE8D5",
             "yellow": "#B58900"
-        },
-        {
-          "name": "Dark Graphite",
-          "background": "#2b2b2b",
-          "foreground": "#aaaaaa",
-          "cursorColor": "#ff0000",
-          "selectionBackground": "#525a97",
-          "black": "#1c1c1c",
-          "red": "#ff4d84",
-          "green": "#95d600",
-          "yellow": "#f6e162",
-          "blue": "#50dbff",
-          "purple": "#ad80ff",
-          "cyan": "#39c884",
-          "white": "#fdfdff",
-          "brightBlack": "#373737",
-          "brightRed": "#ff734d",
-          "brightGreen": "#a0ff6b",
-          "brightYellow": "#ffff87",
-          "brightBlue": "#80dfff",
-          "brightPurple": "#cfa0ff",
-          "brightCyan": "#63ffff",
-          "brightWhite": "#ffffff"
         }
     ],
     "showTabsInTitlebar": true,
