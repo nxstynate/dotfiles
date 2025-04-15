@@ -40,6 +40,9 @@ start "" "C:\Users\Paul\AppData\Local\slack\slack.exe"
 echo Launching Discord...
 start "" "C:\Users\Paul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk"
 
+echo Launching WhatsApp...
+start "" "C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2514.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe"
+
 REM echo Launching Signal...
 REM start "Users\Paul\AppData\Local\Programs\signal-desktop\Signal.exe"
 
