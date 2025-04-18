@@ -6,10 +6,7 @@ local M = {}
 function M.apply(config)
 	-- Appearence
 	config.adjust_window_size_when_changing_font_size = false
-	-- config.color_scheme = "Catppuccin Macchiato"
-	-- config.color_scheme = "Gruvbox dark, hard (base16)"
 	config.color_scheme = theme
-	-- config.color_scheme = "Solarized Dark - Patched"
 	config.dpi = 300
 	config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Thin" })
 	-- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Light" })

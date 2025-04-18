@@ -44,17 +44,37 @@ return {
     priority = 1000,
     lazy = false,
     opts = {
+      variant = "moon",
+      dark_variant = "moon",
       enable = {
         terminal = true,
       },
       styles = {
         transparency = true,
-        bold = true,
-        italic = true,
+        bold = false,
+        italic = false,
       },
     },
     config = function(_, opts)
       require("rose-pine").setup(opts)
+    end,
+  },
+  {
+    "folke/tokyonight.nvim",
+    name = "tokyonight",
+    priority = 1000,
+    lazy = false,
+    opts = {
+      style = "storm",
+      transparent = true,
+      terminal_colors = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+    config = function(_, opts)
+      require("tokyonight").setup(opts)
     end,
   },
 
@@ -62,7 +82,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "rose-pine",
     },
   },
 }
