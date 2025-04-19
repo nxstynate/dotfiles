@@ -19,13 +19,15 @@ function M.apply(config)
 		brightness = 1.0, -- Keep brightness the same (fully visible text)
 	}
 	config.line_height = 1
+	config.cell_width = 1
 	config.use_resize_increments = true
 	config.window_background_opacity = 0
-	config.window_decorations = "RESIZE"
+	config.window_decorations = "NONE | RESIZE"
 	config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
 	-- Performance
 	config.term = "xterm-256color"
-	config.front_end = "WebGpu"
+	config.front_end = "OpenGL"
+	config.prefer_egl = true
 	config.webgpu_power_preference = "HighPerformance"
 	config.max_fps = 144
 	config.underline_thickness = "1pt"
