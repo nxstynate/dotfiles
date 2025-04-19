@@ -31,7 +31,11 @@ echo Launching Google Chrome windows...
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://www.google.com"
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://voice.google.com"
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window --start-fullscreen "https://calendar.google.com"
-start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window --start-fullscreen "https://mail.google.com"
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://mail.google.com"
+timeout /t 1 /nobreak >nul
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://mail.google.com/mail/u/4/#inbox"
+timeout /t 1 /nobreak >nul
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://mail.google.com/mail/u/5/#inbox"
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window --start-fullscreen "https://trello.com/b/vHEaopgO/template"
 
 echo Launching Slack...
