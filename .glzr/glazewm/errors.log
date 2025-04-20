@@ -90,3 +90,5 @@
 [2m2025-04-18T14:32:28.345080Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
 [2m2025-04-18T20:10:05.043445Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No workspace.
 [2m2025-04-19T06:18:57.286123Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-04-19T16:21:28.363886Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-20T00:12:11.736886Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
