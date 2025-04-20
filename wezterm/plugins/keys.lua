@@ -27,7 +27,7 @@ function M.apply(config)
 		{
 			mods = "LEADER",
 			key = "u",
-			action = wezterm.action.SpawnCommandInNewTab({ args = { "wsl.exe", "-d", "Ubuntu" } }),
+			action = wezterm.action.SpawnCommandInNewTab({ args = { "wsl.exe", "-d", "archlinux" } }),
 		},
 	}
 

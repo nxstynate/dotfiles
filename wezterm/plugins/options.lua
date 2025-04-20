@@ -9,8 +9,8 @@ function M.apply(config)
 	config.adjust_window_size_when_changing_font_size = false
 	-- config.color_scheme = theme_custom
 	-- config.dpi = 300
-	-- config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Thin" })
-	config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Light" })
+	config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Light" })
+	-- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Light" })
 	config.font_size = 20
 	config.force_reverse_video_cursor = false
 	config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text

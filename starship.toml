@@ -2,17 +2,17 @@ format = " $username $directory $git_branch [$time]($style) $all"
 
 
 [username]
-show_always = true  # Ensures the username is always displayed
-format = "👤 [nxstynate]($style) "  # Force username to "Paul"
-style_root = "bold red"  # This applies when running as Admin
-style_user = "bold blue"  # This applies for normal user mode
+show_always = true                # Ensures the username is always displayed
+format = "👤 [nxstynate]($style) " # Force username to "Paul"
+style_root = "bold red"           # This applies when running as Admin
+style_user = "bold blue"          # This applies for normal user mode
 disabled = false
 
-[time]
-disabled = false
-format = " [$time]($style) "
-time_format = "%H:%M:%S"
-style = "bold yellow"
+# [time]
+# disabled = false
+# format = " [$time]($style) "
+# time_format = "%H:%M:%S"
+# style = "bold yellow"
 
 [aws]
 symbol = "  "
