@@ -146,7 +146,7 @@ window_rules:
   - commands: ["move --workspace 5"]
     match:
       - window_title: { regex: "Trello" }
-  - commands: ["move --workspace 6"]
+  - commands: ["move --workspace 6", "set-tiling"]
     match:
       - window_process: { regex: "slack|Discord|Signal|WhatsApp" }
       - window_title: { regex: "Voice|WhatsApp" }

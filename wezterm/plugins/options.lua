@@ -22,7 +22,7 @@ function M.apply(config)
 	config.line_height = 1
 	config.cell_width = 1
 	config.use_resize_increments = true
-	config.window_background_opacity = 1
+	config.window_background_opacity = 0.4
 	config.window_decorations = "NONE | RESIZE"
 	config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
 	-- Performance
@@ -33,11 +33,11 @@ function M.apply(config)
 	config.max_fps = 144
 	config.underline_thickness = "1pt"
 	-- Tabs
-	config.enable_tab_bar = true
-	config.hide_tab_bar_if_only_one_tab = false
-	config.tab_and_split_indices_are_zero_based = true
-	config.tab_bar_at_bottom = true
-	config.use_fancy_tab_bar = false
+	config.enable_tab_bar = false
+	-- config.hide_tab_bar_if_only_one_tab = false
+	-- config.tab_and_split_indices_are_zero_based = true
+	-- config.tab_bar_at_bottom = true
+	-- config.use_fancy_tab_bar = true
 end
 
 return M

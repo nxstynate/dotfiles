@@ -28,14 +28,15 @@ REM echo Launching Blender...
 REM start "" "C:\Program Files\Blender Foundation\Blender 4.2\blender.exe"
 
 echo Launching Google Chrome windows...
-start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window"https://mail.google.com/mail/u/5/#inbox"
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://mail.google.com/mail/u/5/#inbox"
 timeout /t 1 /nobreak >nul
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://mail.google.com/mail/u/4/#inbox"
 timeout /t 1 /nobreak >nul
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://mail.google.com"
+timeout /t 1 /nobreak >nul
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://www.google.com"
 echo Launching Google Voice...
-start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://voice.google.com"
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://voice.google.com" --window-size=1280,800 --window-position=100,100
 echo Launching Google Calendar...
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window --start-fullscreen "https://calendar.google.com"
 echo Launching Google GMail...
@@ -50,8 +51,8 @@ start "" "C:\Users\Paul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Di
 echo Launching WhatsApp...
 start "" "C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2514.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe"
 
-REM echo Launching Signal...
-REM start "Users\Paul\AppData\Local\Programs\signal-desktop\Signal.exe"
+echo Launching Signal...
+start "" "C:\Users\Paul\AppData\Local\programs\signal-desktop\Signal.exe"
 
 echo All applications started successfully!
 exit
