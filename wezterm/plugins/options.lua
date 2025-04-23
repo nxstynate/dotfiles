@@ -10,8 +10,9 @@ function M.apply(config)
 	-- config.color_scheme = theme_custom
 	-- config.dpi = 300
 	config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Light" })
+	-- config.font = wezterm.font("FiraMono Nerd Font Mono", { weight = "Regular" })
 	-- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Light" })
-	config.font_size = 20
+	config.font_size = 18
 	config.force_reverse_video_cursor = false
 	config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
 	-- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
@@ -22,9 +23,10 @@ function M.apply(config)
 	config.line_height = 1
 	config.cell_width = 1
 	config.use_resize_increments = true
-	config.window_background_opacity = 0.4
+	config.window_background_opacity = 1
 	config.window_decorations = "NONE | RESIZE"
 	config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
+
 	-- Performance
 	config.term = "xterm-256color"
 	config.front_end = "OpenGL"

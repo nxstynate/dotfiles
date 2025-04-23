@@ -1,6 +1,5 @@
 local M = {}
--- local theme = "Rosé Pine Moon (Gogh)"
-local theme = "Solarized Dark - Patched"
+local theme = "Rosé Pine Moon (Gogh)"
 
 function M.apply(config)
 	config.color_scheme = theme

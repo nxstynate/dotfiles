@@ -3,7 +3,7 @@ local M = {}
 function M.apply(config)
 	config.colors = {
 		foreground = "#657B83",
-		background = "#101010",
+		background = "#000",
 		cursor_bg = "#586E75",
 		cursor_border = "#586E75",
 		cursor_fg = "#101010",
