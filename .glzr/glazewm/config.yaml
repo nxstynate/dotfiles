@@ -152,7 +152,7 @@ window_rules:
       - window_title: { regex: "Voice|WhatsApp" }
   - commands: ["move --workspace 7"]
     match:
-      - window_process: { regex: "blender|SketchUp|3dsmax|AfterFX|Photoshop" }
+      - window_process: { regex: "blender|SketchUp|3dsmax|AfterFX|Photoshop|Illustrator" }
       - window_title:
           {
             regex: "C:\\Program Files\\Blender Foundation\\Blender 4.2\\blender.exe",
@@ -160,6 +160,7 @@ window_rules:
             "C:\\Program Files\\Autodesk\\3ds Max 2022\\3dsmax.exe",
             "C:\\Program Files\\Adobe\\Adobe After Effects 2025\\Support Files\\AfterFX.exe",
             "C:\\Program Files\\Adobe\\Adobe Photoshop 2025\\Photoshop.exe",
+            "C:\\Program Files\\Adobe\\Adobe Illustrator 2025\\Support Files\\Contents\\WindowsIllustrator.exe",
           }
   - commands: ["move --workspace 8"]
     match:

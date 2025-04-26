@@ -1,7 +1,7 @@
 local M = {}
 
 function M.apply(config)
-	local bg_image = os.getenv("HOME") .. "/dotfiles/wezterm/plugins/images/background.jpg"
+	local bg_image = os.getenv("HOME") .. "/dotfiles/wezterm/nxstynate/images/background.jpg"
 
 	config.window_background_image = bg_image
 	config.window_background_image_hsb = {

@@ -1,6 +1,4 @@
 local wezterm = require("wezterm")
-local theme = require("plugins.theme").current
-local theme_custom = require("plugins.theme_custom").current
 
 local M = {}
 
@@ -9,10 +7,10 @@ function M.apply(config)
 	config.adjust_window_size_when_changing_font_size = false
 	-- config.color_scheme = theme_custom
 	-- config.dpi = 300
-	config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Thin" })
+	config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Light" })
 	-- config.font = wezterm.font("FiraMono Nerd Font Mono", { weight = "Regular" })
 	-- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Light" })
-	config.font_size = 18
+	config.font_size = 20
 	config.force_reverse_video_cursor = false
 	config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
 	-- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
@@ -36,10 +34,10 @@ function M.apply(config)
 	config.underline_thickness = "1pt"
 	-- Tabs
 	config.enable_tab_bar = false
-	-- config.hide_tab_bar_if_only_one_tab = false
-	-- config.tab_and_split_indices_are_zero_based = true
-	-- config.tab_bar_at_bottom = true
-	-- config.use_fancy_tab_bar = true
+	config.hide_tab_bar_if_only_one_tab = false
+	config.tab_and_split_indices_are_zero_based = false
+	config.tab_bar_at_bottom = true
+	config.use_fancy_tab_bar = false
 end
 
 return M

@@ -75,7 +75,7 @@ Set-Alias blender42 "C:\Program Files\Blender Foundation\Blender 4.2\blender.exe
 Set-Alias blender41 "C:\Program Files\Blender Foundation\Blender 4.1\blender.exe"
 Set-Alias blender40 "C:\Program Files\Blender Foundation\Blender 4.0\blender.exe"
 Set-Alias photoshop "C:\Program Files\Adobe\Adobe Photoshop 2025\Photoshop.exe"
-Set-Alias illustrator "C:\Program Files\Adobe\Adobe Illustrator 2024\Support Files\Contents\Windows\Illustrator.exe"
+Set-Alias illustrator "C:\Program Files\Adobe\Adobe Illustrator 2025\Support Files\Contents\Windows\Illustrator.exe"
 Set-Alias AfterFx "C:\Program Files\Adobe\Adobe After Effects 2025\Support Files\AfterFX.exe"
 Set-Alias aerender "C:\Program Files\Adobe\Adobe After Effects 2025\Support Files\aerender.exe"
 Set-Alias indesigin "C:\Program Files\Adobe\Adobe InDesign 2023\InDesign.exe"

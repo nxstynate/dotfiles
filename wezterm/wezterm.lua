@@ -1,2 +1,2 @@
 -- wezterm.lua
-return require("plugins")
+return require("nxstynate")
