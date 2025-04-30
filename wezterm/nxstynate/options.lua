@@ -27,10 +27,10 @@ function M.apply(config)
 
 	-- Performance
 	config.term = "xterm-256color"
-	config.front_end = "OpenGL"
+	config.front_end = "WebGpu"
 	config.prefer_egl = true
 	config.webgpu_power_preference = "HighPerformance"
-	config.max_fps = 144
+	config.max_fps = 120
 	config.underline_thickness = "1pt"
 	-- Tabs
 	config.enable_tab_bar = false
