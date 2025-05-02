@@ -40,7 +40,9 @@ start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "h
 echo Launching Google Calendar...
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window --start-fullscreen "https://calendar.google.com"
 echo Launching Google GMail...
-start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window --start-fullscreen "https://trello.com/b/vHEaopgO/template"
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://trello.com/b/vHEaopgO/template"
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://miro.com/app/dashboard/"
+
 
 echo Launching Slack...
 start "" "C:\Users\Paul\AppData\Local\slack\slack.exe"

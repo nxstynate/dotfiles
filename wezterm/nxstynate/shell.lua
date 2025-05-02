@@ -13,7 +13,7 @@ function M.apply(config)
 		config.launch_menu = config.launch_menu or {}
 		table.insert(config.launch_menu, {
 			label = "WSL: Arch Linux (Zsh)",
-			args = { "wsl.exe", "--distribution", "Arch", "--exec", "zsh", "-l" },
+			args = { "wsl.exe", "--distribution", "Arch", "--exec", "zsh", "-l", "fish" },
 		})
 	else
 		-- For Unix-based systems (if you use WezTerm on Linux/macOS too)

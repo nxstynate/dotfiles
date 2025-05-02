@@ -38,6 +38,9 @@ function M.apply(config)
 	config.tab_and_split_indices_are_zero_based = false
 	config.tab_bar_at_bottom = true
 	config.use_fancy_tab_bar = false
+
+	--Distribution
+	-- config.default_domain = "WSL:archlinux"
 end
 
 return M
