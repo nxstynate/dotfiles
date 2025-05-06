@@ -1,6 +1,8 @@
 local wezterm = require("wezterm")
 
 local M = {}
+local wezterm_config_path = os.getenv("HOME") .. "/dotfiles/wezterm/wezterm.lua"
+local localproduction = "X:/LocalProduction/"
 
 function M.apply(config)
 	config.leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 }
@@ -29,6 +31,22 @@ function M.apply(config)
 		{ mods = "LEADER", key = "t", action = wezterm.action.ShowTabNavigator },
 		{ mods = "LEADER", key = "Return", action = wezterm.action.TogglePaneZoomState },
 		{ mods = "LEADER", key = "f", action = wezterm.action.ToggleFullScreen },
+		{
+			mods = "LEADER",
+			key = "m",
+			action = wezterm.action.SpawnCommandInNewTab({
+				cwd = wezterm.home_dir,
+				args = { "nvim", wezterm_config_path },
+			}),
+		},
+		{
+			mods = "LEADER",
+			key = "o",
+			action = wezterm.action.SpawnCommandInNewTab({
+				cwd = localproduction,
+				args = { "pwsh", "-NoExit", "-NoLogo", "-Command", "fcd" },
+			}),
+		},
 	}
 
 	-- Add LEADER + number keys for tab switching
