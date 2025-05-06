@@ -52,7 +52,9 @@ function fcd {
 }
 
 #Fastfetch-----------------------------------------------------------------------------------------
-Fastfetch
+if (-not $env:SKIP_FASTFETCH) {
+    Fastfetch
+  }
 
 #Python Scripts-----------------------------------------------------------------------------------------
 Set-Alias mm "$HOME\scripts\mm.py"

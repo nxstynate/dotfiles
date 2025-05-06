@@ -41,9 +41,23 @@ function M.apply(config)
 		},
 		{
 			mods = "LEADER",
+			key = "y",
+			action = wezterm.action.SpawnCommandInNewTab({
+				cwd = wezterm.home_dir,
+				set_environment_variables = {
+					SKIP_FASTFETCH = "1",
+				},
+				args = { "pwsh", "-NoLogo", "-Command", "nvim $PROFILE" },
+			}),
+		},
+		{
+			mods = "LEADER",
 			key = "o",
 			action = wezterm.action.SpawnCommandInNewTab({
 				cwd = localproduction,
+				set_environment_variables = {
+					SKIP_FASTFETCH = "1",
+				},
 				args = { "pwsh", "-NoExit", "-NoLogo", "-Command", "fcd" },
 			}),
 		},
