@@ -33,11 +33,44 @@ function M.apply(config)
 	config.max_fps = 120
 	config.underline_thickness = "1pt"
 	-- Tabs
-	config.enable_tab_bar = false
-	config.hide_tab_bar_if_only_one_tab = false
-	config.tab_and_split_indices_are_zero_based = false
-	config.tab_bar_at_bottom = true
-	config.use_fancy_tab_bar = false
+	-- config.enable_tab_bar = true
+	-- config.hide_tab_bar_if_only_one_tab = false
+	-- config.tab_and_split_indices_are_zero_based = true
+	-- config.tab_bar_at_bottom = true
+	-- config.use_fancy_tab_bar = false
+	-- config.tab_max_width = 16
+	-- config.colors = {
+	-- 	tab_bar = {
+	-- 		background = "#26233a",
+	-- 		active_tab = {
+	-- 			bg_color = "#26233a",
+	-- 			fg_color = "#ebbcba",
+	-- 			intensity = "Normal",
+	-- 			underline = "None",
+	-- 			italic = false,
+	-- 			strikethrough = false,
+	-- 		},
+	-- 		inactive_tab = {
+	-- 			bg_color = "#26233a",
+	-- 			fg_color = "#e0def4",
+	-- 		},
+	--
+	-- 		inactive_tab_hover = {
+	-- 			bg_color = "#26233a",
+	-- 			fg_color = "#e0def4",
+	-- 			italic = true,
+	-- 		},
+	-- 		new_tab = {
+	-- 			bg_color = "#26233a",
+	-- 			fg_color = "#e0def4",
+	-- 		},
+	-- 		new_tab_hover = {
+	-- 			bg_color = "#26233a",
+	-- 			fg_color = "#e0def4",
+	-- 			italic = true,
+	-- 		},
+	-- 	},
+	-- }
 
 	--Distribution
 	-- config.default_domain = "WSL:archlinux"

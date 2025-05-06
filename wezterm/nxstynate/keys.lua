@@ -64,11 +64,11 @@ function M.apply(config)
 	}
 
 	-- Add LEADER + number keys for tab switching
-	for i = 0, 9 do
+	for i = 1, 9 do
 		table.insert(config.keys, {
 			key = tostring(i),
 			mods = "LEADER",
-			action = wezterm.action.ActivateTab(i),
+			action = wezterm.action.ActivateTab(i - 1),
 		})
 	end
 end
