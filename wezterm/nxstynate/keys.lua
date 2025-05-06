@@ -41,6 +41,17 @@ function M.apply(config)
 		},
 		{
 			mods = "LEADER",
+			key = "i",
+			action = wezterm.action.SwitchToWorkspace({
+				name = "wezterm-config",
+				spawn = {
+					cwd = wezterm.home_dir,
+					args = { "pwsh.exe" },
+				},
+			}),
+		},
+		{
+			mods = "LEADER",
 			key = "y",
 			action = wezterm.action.SpawnCommandInNewTab({
 				cwd = wezterm.home_dir,
@@ -60,6 +71,11 @@ function M.apply(config)
 				},
 				args = { "pwsh", "-NoExit", "-NoLogo", "-Command", "fcd" },
 			}),
+		},
+		{
+			key = "w",
+			mods = "LEADER",
+			action = wezterm.action.ShowLauncherArgs({ flags = "WORKSPACES" }),
 		},
 	}
 
