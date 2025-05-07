@@ -7,6 +7,7 @@ M.cursor_border = "#586E75"
 M.cursor_fg = "#101010"
 M.selection_bg = "#103956"
 M.selection_fg = "#657B83"
+M.gunmetal_black = "#151515"
 
 -- Normal colors
 M.black = "#00141A"

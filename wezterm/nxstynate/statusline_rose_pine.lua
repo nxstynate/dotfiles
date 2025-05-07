@@ -14,9 +14,9 @@ function M.apply(config)
 	config.colors = config.colors or {}
 
 	config.colors.tab_bar = {
-		background = colors.surface,
+		background = colors.gunmetal_black,
 		active_tab = {
-			bg_color = colors.surface,
+			bg_color = colors.gunmetal_black,
 			fg_color = colors.rose,
 			intensity = "Bold",
 			underline = "None",
@@ -24,21 +24,21 @@ function M.apply(config)
 			strikethrough = false,
 		},
 		inactive_tab = {
-			bg_color = colors.surface,
-			fg_color = colors.text,
+			bg_color = colors.gunmetal_black,
+			fg_color = colors.pine,
 		},
 		inactive_tab_hover = {
-			bg_color = colors.surface,
-			fg_color = colors.text,
+			bg_color = colors.gunmetal_black,
+			fg_color = colors.pine,
 			italic = true,
 		},
 		new_tab = {
-			bg_color = colors.surface,
-			fg_color = colors.text,
+			bg_color = colors.gunmetal_black,
+			fg_color = colors.pine,
 		},
 		new_tab_hover = {
-			bg_color = colors.surface,
-			fg_color = colors.text,
+			bg_color = colors.gunmetal_black,
+			fg_color = colors.pine,
 			italic = true,
 		},
 	}
@@ -47,9 +47,12 @@ function M.apply(config)
 		local workspace = window:active_workspace()
 
 		window:set_right_status(wezterm.format({
-			{ Foreground = { Color = colors.text } },
-			{ Background = { Color = colors.surface } },
-			{ Text = "  [" .. workspace .. "]  |  " .. time .. "  " },
+			{ Background = { Color = colors.gunmetal_black } },
+			{ Foreground = { Color = colors.pine } },
+			{ Text = "WS:[" .. workspace .. "] " },
+
+			{ Foreground = { Color = colors.pine } },
+			{ Text = " " .. time .. " " },
 		}))
 	end)
 end

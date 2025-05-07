@@ -15,5 +15,6 @@ M.iris = "#c4a7e7"
 M.highlight_low = "#2a283e"
 M.highlight_med = "#44415a"
 M.highlight_high = "#56526e"
+M.gunmetal_black = "#121212"
 
 return M
