@@ -3,6 +3,7 @@ local wezterm = require("wezterm")
 local M = {}
 local wezterm_config_path = os.getenv("HOME") .. "/dotfiles/wezterm/wezterm.lua"
 local localproduction = "X:/LocalProduction/"
+local dir_youtube = "X:/Youtube/"
 
 function M.apply(config)
 	config.leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 }
@@ -41,18 +42,27 @@ function M.apply(config)
 		},
 		{
 			mods = "LEADER",
-			key = "i",
+			key = "y",
 			action = wezterm.action.SwitchToWorkspace({
-				name = "wezterm-config",
+				name = "YOUTUBE",
 				spawn = {
-					cwd = wezterm.home_dir,
-					args = { "pwsh.exe" },
+					cwd = dir_youtube,
+					set_environment_variables = {
+						SKIP_FASTFETCH = "1",
+					},
+					args = {
+						"pwsh",
+						"-NoExit",
+						"-NoLogo",
+						"-Command",
+						"Set-PSReadLineOption -PredictionSource None",
+					},
 				},
 			}),
 		},
 		{
 			mods = "LEADER",
-			key = "y",
+			key = "i",
 			action = wezterm.action.SpawnCommandInNewTab({
 				cwd = wezterm.home_dir,
 				set_environment_variables = {
