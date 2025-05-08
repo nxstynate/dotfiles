@@ -4,6 +4,7 @@ local M = {}
 local wezterm_config_path = os.getenv("HOME") .. "/dotfiles/wezterm/wezterm.lua"
 local localproduction = "X:/LocalProduction/"
 local dir_youtube = "X:/Youtube/"
+local scratch_document = "$env:USERNAME/scratch.txt"
 
 function M.apply(config)
 	config.leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 }
@@ -38,6 +39,14 @@ function M.apply(config)
 			action = wezterm.action.SpawnCommandInNewTab({
 				cwd = wezterm.home_dir,
 				args = { "nvim", wezterm_config_path },
+			}),
+		},
+		{
+			mods = "LEADER",
+			key = ";",
+			action = wezterm.action.SpawnCommandInNewTab({
+				cwd = wezterm.home_dir,
+				args = { "nvim", scratch_document },
 			}),
 		},
 		{
