@@ -113,12 +113,12 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "opacity": 100,
+                "opacity": 31,
                 "padding": "4",
                 "scrollbarState": "hidden",
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": false
+                "useAcrylic": true
             },
             {
                 "colorScheme": "Gruvbox Dark",
@@ -305,7 +305,6 @@
         }
     ],
     "showTabsInTitlebar": true,
-    "startOnUserLogin": true,
     "tabWidthMode": "equal",
     "themes": [],
     "useAcrylicInTabRow": false

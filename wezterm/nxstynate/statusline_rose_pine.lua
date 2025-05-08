@@ -43,17 +43,20 @@ function M.apply(config)
 		},
 	}
 	wezterm.on("update-right-status", function(window, _)
-		local time = wezterm.strftime("%a %Y-%m-%d %H:%M")
 		local workspace = window:active_workspace()
-
-		window:set_right_status(wezterm.format({
+		local elements = {
 			{ Background = { Color = colors.gunmetal_black } },
 			{ Foreground = { Color = colors.pine } },
 			{ Text = "WS:[" .. workspace .. "] " },
+		}
 
-			{ Foreground = { Color = colors.pine } },
-			{ Text = " " .. time .. " " },
-		}))
+		if workspace ~= "YOUTUBE" then
+			local time = wezterm.strftime("%a %Y-%m-%d %H:%M")
+			table.insert(elements, { Foreground = { Color = colors.pine } })
+			table.insert(elements, { Text = " " .. time .. " " })
+		end
+
+		window:set_right_status(wezterm.format(elements))
 	end)
 end
 
