@@ -10,11 +10,6 @@ function M.apply(config)
 	config.leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 }
 
 	config.keys = {
-		{
-			mods = "LEADER",
-			key = "u",
-			action = wezterm.action.SpawnCommandInNewTab({ args = { "wsl.exe", "-d", "archlinux" } }),
-		},
 		{ mods = "LEADER", key = "c", action = wezterm.action.SpawnTab("CurrentPaneDomain") },
 		{ mods = "LEADER", key = "x", action = wezterm.action.CloseCurrentPane({ confirm = true }) },
 		{ mods = "LEADER", key = "p", action = wezterm.action.ActivateTabRelative(-1) },
@@ -33,6 +28,16 @@ function M.apply(config)
 		{ mods = "LEADER", key = "t", action = wezterm.action.ShowTabNavigator },
 		{ mods = "LEADER", key = "Return", action = wezterm.action.TogglePaneZoomState },
 		{ mods = "LEADER", key = "f", action = wezterm.action.ToggleFullScreen },
+		{
+			mods = "LEADER",
+			key = "u",
+			action = wezterm.action.SwitchToWorkspace({
+				name = "ARCH",
+				spawn = {
+					args = { "wsl.exe", "-d", "archlinux" },
+				},
+			}),
+		},
 		{
 			mods = "LEADER",
 			key = "m",
