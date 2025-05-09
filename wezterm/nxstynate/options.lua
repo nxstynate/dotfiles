@@ -5,16 +5,17 @@ local M = {}
 function M.apply(config)
 	-- Appearence
 	config.adjust_window_size_when_changing_font_size = false
+	config.enable_scroll_bar = false
 	-- config.color_scheme = theme_custom
 	-- config.dpi = 300
-	config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Light" })
+	config.font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Thin" })
 	-- config.font = wezterm.font("FiraMono Nerd Font Mono", { weight = "Regular" })
 	-- config.font = wezterm.font("BlexMono Nerd Font Mono", { weight = "Regular" })
 	-- config.font = wezterm.font("Hack Nerd Font Mono", { weight = "Regular" })
 	config.font_size = 20
 	config.force_reverse_video_cursor = false
 	config.freetype_load_flags = "NO_HINTING" -- Alternative option for cleaner text
-	-- config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
+	config.freetype_render_target = "HorizontalLcd" -- Improves subpixel rendering
 	config.inactive_pane_hsb = {
 		saturation = 1.0, -- Keep saturation the same (no dimming)
 		brightness = 1.0, -- Keep brightness the same (fully visible text)
