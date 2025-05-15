@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 
 local M = {}
-local wezterm_config_path = os.getenv("HOME") .. "/dotfiles/wezterm/wezterm.lua"
+local wezterm_config_path = os.getenv("HOME") .. "/dotfiles/wezterm/nxstynate/init.lua"
 local localproduction = "X:/LocalProduction/"
 local dir_youtube = "X:/Youtube/"
 local scratch_document = "$env:USERNAME/scratch.txt"
